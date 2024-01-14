@@ -1,0 +1,19 @@
+COLUMNS:
+  Delivery_person_Age:  float64
+  Delivery_person_Ratings:  float64
+  Weather_conditions:  object 
+  Road_traffic_density: object 
+  Vehicle_condition: int64  
+  Type_of_order: object 
+  Type_of_vehicle: object 
+  multiple_deliveries: float64
+  Festival: object 
+  City: object 
+  Time_taken (min): int64  
+  Time_Orderd_Hour: int32  
+  Delivery_City: object 
+  distance: float64
+
+
+TARGET_COLUMN:
+  name: Time_taken (min)
